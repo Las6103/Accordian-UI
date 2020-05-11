@@ -27,6 +27,11 @@ header {
   font-size: 2rem;
 }
 
+.header:hover {
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+}
+
 .header__heading {
   padding: 0.5rem 1rem;
 }

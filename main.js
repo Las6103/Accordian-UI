@@ -1,9 +1,13 @@
+// Global Variables
 const url = "https://swapi.dev/api/";
 let peopleOfStarWars = document.querySelector(".people");
 let starshipsOfStarWars = document.querySelector(".starships");
 let vehiclesOfStarWars = document.querySelector(".vehicles");
 let planetsOfStarWars = document.querySelector(".planets");
+let buttons = document.querySelectorAll(".header");
+let articles = document.querySelectorAll(".article");
 
+// API Incorporation
 fetch(url + "people/")
   .then((unparsedData) => unparsedData.json())
   .then((parsedData) => {
@@ -48,14 +52,14 @@ fetch(url + "planets/")
     });
   });
 
-let buttons = document.querySelectorAll(".header");
-let content = document.querySelectorAll(".article");
-console.log(buttons);
-
+// Accordian Animation
 buttons.forEach((button, i) => {
   button.addEventListener("click", function (evt) {
     evt.preventDefault();
-    let currentClass = content[i];
-    console.log(currentClass);
+    let currentClass = articles[i];
+    articles.forEach((article) => {
+      article.classList.remove("active");
+    });
+    currentClass.classList.add("active");
   });
 });
