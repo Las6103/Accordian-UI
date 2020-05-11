@@ -9,7 +9,6 @@ html {
 }
 
 header {
-  
   margin-bottom: 5rem;
   padding: 2rem;
   color: white;
@@ -23,26 +22,24 @@ header {
 }
 
 .header {
-  
   background-color: rgb(73, 73, 73);
   color: white;
   font-size: 2rem;
 }
 
 .header__heading {
-    padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .article {
   display: flex;
-  
+
   background-color: white;
 }
 
 .basis {
-    flex: 1 1 calc(1 / 2 * 100%);
+  flex: 1 1 calc(1 / 2 * 100%);
 }
-
 
 .luke {
   background-image: url("/css/luke.jpg");
@@ -64,7 +61,7 @@ header {
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 ul {
