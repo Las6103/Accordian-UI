@@ -1,4 +1,4 @@
-# Accordian-UI
+# Star Wars Accordian
 
 # Getting Started
 
@@ -13,3 +13,10 @@ https://swapi.dev/api/starships/
 https://swapi.dev/api/vehicles/
 https://swapi.dev/api/planets/
 ```
+
+# Built With
+HTML, CSS, and JS
+
+# Creator
+Leonardo Silva
+

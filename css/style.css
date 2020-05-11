@@ -28,8 +28,8 @@ header {
 }
 
 .header:hover {
-    background-color: rgb(40, 40, 40);
-    cursor: pointer;
+  background-color: rgb(40, 40, 40);
+  cursor: pointer;
 }
 
 .header__heading {
@@ -77,4 +77,15 @@ ul {
   list-style: none;
   font-size: 1.2rem;
   line-height: 1.8rem;
+  text-align: center;
+}
+
+@media (max-width: 780px) {
+  header {
+    font-size: 2rem;
+  }
+
+  .article {
+    flex-direction: column;
+  }
 }
