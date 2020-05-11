@@ -4,7 +4,7 @@
 }
 
 html {
-  background-image: url("/css/star-wars-backgrounds.jpg");
+  background-image: url("star-wars-backgrounds.jpg");
   background-size: cover;
 }
 
@@ -51,21 +51,21 @@ header {
 }
 
 .luke {
-  background-image: url("/css/luke.jpg");
+  background-image: url("luke.jpg");
   background-size: cover;
 }
 .falcon {
-  background-image: url("/css/falcon.jpg");
+  background-image: url("falcon.jpg");
   background-size: cover;
 }
 
 .landspeeder {
-  background-image: url("/css/landspeeder.jpeg");
+  background-image: url("landspeeder.jpeg");
   background-size: cover;
 }
 
 .hoth {
-  background-image: url("/css/hoth.jpg");
+  background-image: url("hoth.jpg");
   background-size: cover;
 }
 
