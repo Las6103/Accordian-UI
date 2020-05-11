@@ -52,15 +52,11 @@ let buttons = document.querySelectorAll(".header");
 let content = document.querySelectorAll(".article");
 console.log(buttons);
 
-
 buttons.forEach((button, i) => {
   button.addEventListener("click", function (evt) {
     evt.preventDefault();
     let currentClass = content[i].className;
-    console.log(currentClass)
-        currentClass = 'article';
-        
-    
-
+    console.log(currentClass);
+    currentClass = "article";
   });
 });
