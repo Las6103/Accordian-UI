@@ -55,8 +55,7 @@ console.log(buttons);
 buttons.forEach((button, i) => {
   button.addEventListener("click", function (evt) {
     evt.preventDefault();
-    let currentClass = content[i].className;
+    let currentClass = content[i];
     console.log(currentClass);
-    currentClass = "article";
   });
 });

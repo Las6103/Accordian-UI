@@ -33,8 +33,12 @@ header {
 
 .article {
   display: flex;
-
   background-color: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
 }
 
 .basis {
@@ -60,8 +64,8 @@ header {
   background-size: cover;
 }
 
-.hidden {
-  display: none;
+.active {
+  height: 280px;
 }
 
 ul {
