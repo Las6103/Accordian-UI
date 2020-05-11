@@ -35,12 +35,39 @@ header {
 
 .article__image {
   border: 1px solid green;
+  flex: 1 1 calc(1/2 * 100%);
 }
 
 .article__content {
   border: 1px solid yellow;
+  flex: 1 1 calc(1/2 * 100%);
 }
 
 .hidden {
-  display: none;
+  
+}
+
+.luke {
+    background-image: url('/css/luke.jpg');
+    background-size: cover;
+}
+.falcon {
+    background-image: url('/css/falcon.jpg');
+    background-size: cover;
+}
+
+.landspeeder {
+    background-image: url('/css/landspeeder.jpeg');
+    background-size: cover;
+}
+
+.hoth {
+    background-image: url('/css/hoth.jpg');
+    background-size: cover
+}
+
+ul {
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
 }
